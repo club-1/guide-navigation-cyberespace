@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: crickx;
+    src: url(fonts/crickx.woff);
+}
+
+@font-face {
+    font-family: fengardoneue;
+    src: url(fonts/fengardoneue.regular.woff);
+}
+
+body {
+    background-color: #ffffff;
+    color: #272ffb;
+    margin: 0;
+    font-family: fengardoneue;
+}
+
+.page {
+    display: flex;
+}
+
+.a6 {
+    border: solid 1px rgb(240, 240, 240);
+    width: 10.3cm;
+    height: 14.6cm;
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: relative;
+}
+
+#p1, #p2, h2 {
+    text-align: center;
+}
+
+a {
+    color: #9f1ba2;
+}
+
+p, li {
+    font-size: 0.35cm;
+    margin: 0;
+    list-style: none;
+}
+
+h3 {margin-bottom: 0.2cm;}
+
+
+ul {
+    padding: 0;
+}
+
+img#mer {
+    position: absolute;
+    opacity: 0.4;
+    width: 12cm;
+    top: 1cm;
+    left: -1cm;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+
+img#poisson {
+    width: 5cm;
+    position: absolute;
+    z-index: -1;
+    top: 109mm;
+    right: 10mm;
+    transform: rotate(352deg);
+}
+
+
+h1 {
+    font-size: 2cm;
+}
