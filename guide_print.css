@@ -1,17 +1,14 @@
 @page {
-    size: A4; /* Change from the default size of A4 */
-    margin: 0; /* Set margin on each page */
+    margin: 8mm;
+    size: A6;
+
 }
 
+body {
+    font-size: 0.8rem;
+}
 
-
-.page {
-    height: 29.7cm;
-    width: 21cm;
-
+.a6 {
     page-break-after: always;
     /* break-after: page; */
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
 }
