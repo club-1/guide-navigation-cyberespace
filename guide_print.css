@@ -1,5 +1,5 @@
 @page {
-    margin: 8mm;
+    margin: 1mm;
     size: A6;
 
 }
@@ -11,5 +11,11 @@ body {
 .a6 {
     page-break-after: always;
     /* break-after: page; */
+    margin: 1mm;
 }
 
+
+
+img#url {
+    height: 2cm;
+}

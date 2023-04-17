@@ -18,9 +18,9 @@ p.astuce {
     text-align: center;
 }
 
-.cover ul, .backcover ul {
+.backcover ul {
     list-style: none;
-    padding-inline-start: 0;
+    padding: 0;
 }
 
 kbd {
