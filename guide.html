@@ -5,6 +5,7 @@
     <title>Guide</title>
     <link rel="stylesheet" href="guide.css">
     <link rel="stylesheet" href="guide_print.css" media="print">
+    <link rel="stylesheet" href="guide_screen.css" media="screen">
 </head>
 
 <body>
@@ -30,24 +31,115 @@
             <br>
             <a href="https://ublockorigin.com/"><code>ublockorigin.com</code></a>
         </p>
-        <h3>Bonus : Dark Reader</h3>
+        <h3>Qwant</h3>
         <p>
-            Permet de passer les pages web en mode nuit.
-            Pratique lorsque l'on traîne trop sur son ordi tard le soir. 😉
+            Moteur de recherche qui ne piste pas les données.
+            Il dispose de carte.
         </p>
     </div>
     <div class="a6">
-        <h2>Comprendre</h2>
-        <h3>Savoir lire une URL</h3>
+        <h2>Internet ou Web ?</h2>
+        <p>
+            Le Web, (diminutif de <em>World Wide Web</em>), est souvent confondu avec internet.
+            En réalité, <strong>le Web est une sous partie d'internet</strong> !
+        </p>
+        <img src="images/web.png" alt="">
+        <p>
+            Internet comprend tout les types d'échanges comme les transferts d'argent,
+            jeux vidéo en ligne, messageries instantanées.
+            Tandis que le Web, c'est tout ce qu'on explore depuis un naviguateur Web (comme Firefox ou Chrome),
+            les pages sur lesquels ont est sensés surfer.
+        </p>
     </div>
     <div class="a6">
-        <h2>sous page #6</h2>
+        <h2>Savoir lire une URL</h2>
+        <p>
+            Chaqune des pages web disposent d'une adresse qu'on appelle parfois URL.
+        </p>
+        <img src="images/url.png" alt="">
+        <ol>
+            <li>
+                Cela indique l'utilisation du <strong>protocle <code>HTTPS</code></strong>
+                Ce qui est logique car c'est le protocle du web.
+                le "<code>S</code>" garanti que les données échangées avec le site web sont protégées.
+            </li>
+            <li>
+                Le <strong>nom de domaine</strong> de la page que l'on visite.
+                C'est sont les fameux noms qui se terminent par <code>.fr</code>, <code>.com</code> ou <code>.org</code>.
+                Ils indiquent en quelques sorte le "site" sur lequel on se trouve.
+                Ils peuvent avoir des sous-parties qu'on appelle <em>sous-domaines</em>.
+                Elles se situent juste avant et sont séparées par des points.
+                Par exemple : <code>finance.gouv.fr</code> est un sous-site qui appartient toujours à <code>gouv.fr</code>.
+                <br>
+                Lorsque l'on est pas sûr de faire confiance à un site,
+                ça vaut le coup de jeter un coup d'oeil au nom de domaine !
+            </li>
+            <li>
+                Tout ce qu'il y a après est le contenu du site.
+                cela peut prendre des formes différentes,
+                mais le plus souvent il s'agît de texte correspondant à ce qu'on trouve sur la page.
+            </li>
+            <li>
+                La partie après le <strong>croisillon</strong> <code>#</code> sert à pointer vers une partie de la page web,
+                souvent un titre.
+                C'est utile pour partager un paragraphe en particulier sur les longues pages.
+            </li>
+        </ol>
     </div>
     <div class="a6">
-        <h2>sous page #7</h2>
+        <h2>Les liens</h2>
+        <p>
+            <!-- Le web, c'est donc plein de sites comprenants des pages, qui peuvent être reliés par des
+            <strong>liens hypertexte</strong>. -->
+            Le web, c'est un tissus de liens entre pages de sites,
+            c'est de là que vient le rapprochement avec la toile d'arraignée (<em>web</em>).
+            On appelle ces liens des <strong>liens hypertexte</strong>.
+        </p>
+        <p class="astuce">
+            Dans votre navigateur, il est possible de savoir où mène un lien avant de le suivre.
+            Sur PC, en le survolant avec la souris, cela est indiqué en bas de l'écran.
+            Sur téléphone, en restant appuyé dessus.
+        </p>
+        <h2>Moteur de recherche</h2>
+        <p>
+            Les moteurs de recherche sont une des façon d'explorer le labyrinthe qu'est le web.
+            Leur but de fournir un annuaire.
+            Pour cela, ils ont des programmes qui explorent constamment le web,
+            en suivant tout les liens qu'ils trouvent et en indexant toutes les pages.
+        </p>
+        <h2>Dark Web et Deep Web</h2>
+        <p>
+            On appelle le <em>Deep Web</em>,
+            l'ensemble des pages qui ne sont pas dans les annuaires des moteurs de recherche.
+            <br>
+            Le <em>Dark web</em>, c'est une couche supplémentaire de protection des informations.
+            Pour y accèder il faut un navigateur spécifique qui s'appelle <em>Tor Browser</em>.
+        </p>
+
     </div>
     <div class="a6">
-        <h2>sous page #8</h2>
+        <h2>Maîtriser son navigateur</h2>
+        <h3>Raccourcis clavier</h3>
+        <ul>
+            <li>
+                <kbd>CTRL</kbd> + <kbd>R</kbd> Permet de recharger une page.
+            </li>
+            <li>
+                <kbd>CTRL</kbd> + <kbd>F</kbd> Permet de rechercher du texte dans la page.
+            </li>
+            <li>
+                <kbd>CTRL</kbd> + <kbd>T</kbd> Ouvre un nouvel onglet.
+            </li>
+            <li>
+                <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>R</kbd> Mode lecture.
+            </li>
+        </ul>
+        <h3>Rechercher directement sur des sites</h3>
+        <p>
+            Pourquoi passer par google alors qu'on sait qu'on veut une page wikipedia ?
+            En tapant <code>@wikipedia</code> dans la barre de recherche,
+            on effecture directement une recherche sur ce site.
+        </p>
     </div>
     <div class="a6 annexe">
         <h2>Annexe</h2>
@@ -55,16 +147,30 @@
         <h3>Annuaire</h3>
         <ul>
             <li>
+                <a href="https://archive.org/web"><code>archive.org/web</code></a>
                 Parfois les sites meurent.
                 Lorsqu'un site à disparu, si on a son URL, il est souvent possible d'en retrouver
                 grâce à la machine à remonter dans le temps de Archive.org. - 
-                <a href="https://archive.org/web"><code>archive.org/web</code></a>
+            </li>
+            <li>
+                <a href="https://invidious.fdn.fr"><code>invidious.fdn.fr</code></a>
+                Permet de regarder <em>Youtube</em> à travers un filtre.
+            </li>
+            <li>
+                <a href="https://motherfuckingwebsite.com/"><code>motherfuckingwebsite.com</code></a>
+                Traité de design web
             </li>
         </ul>
         
         <h3>Pour aller plus loin</h3>
         <ul>
+            <li>
+                <a href="https://chatons/org">chatons.org</a> - Collectifs de fournisseurs de services Web.
+            </li>
             <li>Guide autodéfense numérique BOUM - <a href="https://guide.boum.org"><code>guide.boum.org</code></a></li>
+            <li>
+                Atlas critique de l'internet - <a href="https://louisedrulhe.fr/internet-atlas/">louisedrulhe.fr/internet-atlas/</a>
+            </li>
         </ul>
     </div>
     <div class="a6 backcover">

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: fengardoneue;
+    src: url(fonts/fengardoneue.regular.woff);
+}
+
+body {
+    font-family: fengardoneue;
+    color: blue;
+}
+
+
+p.astuce {
+    background: lightgrey;
+    border-left: solid;
+}
+
+.cover, .backcover {
+    text-align: center;
+}
+
+.cover ul, .backcover ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+kbd {
+    border: solid 1px;
+    padding: 0 0.1em;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-radius: 3px;
+}
